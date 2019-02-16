@@ -63,7 +63,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">Sobre</a></li>
         <li class="dropdown">
-            <a class="dropdown-toggle page-scroll" data-toggle="dropdown" href="#services">Soluções
+            <a class="hidden-xs hidden-sm dropdown-toggle page-scroll" data-toggle="dropdown" href="#services">Soluções
+            <a class="hidden-md hidden-lg dropdown-toggle page-scroll" data-toggle="dropdown" href="#">Soluções
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="residencial.html"><i class="fas fa-child"></i> Residencial</a></li>
@@ -91,8 +92,10 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2 intro-text">
-                <h1>Pesquisas &<br>
+                <h1 class="hidden-xs hidden-sm">Pesquisas &<br>
                   Soluções Ambientais</h1>
+                  <h1 class="hidden-md hidden-lg" style="font-size:32px;">Pesquisas &<br>
+                    Soluções Ambientais</h1>
                 </br></br><p>Tecnologia inovadora, saudável, econômica e eficaz, na solução de problemas nas áreas de: Limpeza; Desinfecção; Descontaminação de Ambientes; Controle de Odores.</p>
                   <a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a> </div>
                 </div>
@@ -110,13 +113,21 @@
         <h3 class="text-center">Oferecemos soluções para:</h3>
         <br/><br/>
         <div class="col-xs-12 text-center">
-            <a href="residencial.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-child"></i> Residencial</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="col-xs-12 col-sm-12 col-md-3">
+              <a href="residencial.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-child"></i> Residencial</a>              
+            </div>
+            <div class="col-xs-12 hidden-md hidden-lg" style="height:25px;"></div>
+            <div class="col-xs-12 col-sm-12 col-md-3">
             <a href="corp.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-city" aria-hidden="true"></i> Coorporativo</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-xs-12 hidden-md hidden-lg" style="height:25px;"></div>
+            <div class="col-xs-12 col-sm-12 col-md-3">
             <a href="ambiental.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-tree" aria-hidden="true"></i> Meio Ambiente</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-xs-12 hidden-md hidden-lg" style="height:25px;"></div>
+            <div class="col-xs-12 col-sm-12 col-md-3">
           <a href="agricola.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-leaf" aria-hidden="true"></i> Agrícola</a>
+          </div>
         </div>
       </div>
     </div>
@@ -125,12 +136,11 @@
 <!-- About Section -->
 <div id="about">
   <div class="container">
+    <h2 class="hidden-md hidden-lg">Quem somos</h2>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/lab2.jpg?v2" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/lab2.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
-        <div class="">
-          <h2>Quem somos</h2>
-
+          <h2 class="hidden-xs hidden-sm">Quem somos</h2>
           <ul class="nav nav-tabs">
               <li class="active"><a data-toggle="tab" href="#home">Nossa História</a></li>
               <li><a data-toggle="tab" href="#menu1">Visão</a></li>
@@ -153,8 +163,9 @@
               </div>
             </div>
           </div>
-
-          <h3>Por quê escolher-nos?</h3>
+          <div class="col-xs-12">
+            <h3>Por quê escolher-nos?</h3>
+          </div>
           <div class="list-style about-text">
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <ul>
@@ -186,18 +197,26 @@
     <br/><br/>
     <div class="row">
         <ul class="nav nav-tabs solucoes-menu">
-            <li class="active"><a data-toggle="tab" href="#residencial"><i class="fas fa-child"></i> Residencial</a></li>
-            <li><a data-toggle="tab" href="#coorporativo"><i class="fas fa-city"></i> Coorporativo</a></li>
-            <li><a data-toggle="tab" href="#ambiental"><i class="fas fa-tree"></i> Ambiental</a></li>
-            <li><a data-toggle="tab" href="#agricola"><i class="fas fa-leaf"></i> Agricola</a></li>
-            <li><a data-toggle="tab" href="#pragas"><i class="fas fa-bug"></i> Serviços de controle de pragas e desinfecção</a></li>
+            <li class="active hidden-xs hidden-sm"><a data-toggle="tab" href="#residencial"><i class="fas fa-child"></i> Residencial</a></li>
+            <li class="hidden-xs hidden-sm"><a data-toggle="tab" href="#coorporativo"><i class="fas fa-city"></i> Coorporativo</a></li>
+            <li class="hidden-xs hidden-sm"><a data-toggle="tab" href="#ambiental"><i class="fas fa-tree"></i> Ambiental</a></li>
+            <li class="hidden-xs hidden-sm"><a data-toggle="tab" href="#agricola"><i class="fas fa-leaf"></i> Agricola</a></li>
+            <li class="hidden-xs hidden-sm"><a data-toggle="tab" href="#pragas"><i class="fas fa-bug"></i> Serviços de controle de pragas e desinfecção</a></li>
+
+            <!--Mobile-->
+            <li class="active hidden-md hidden-lg"><a data-toggle="tab" href="#residencial"><i class="fas fa-child"></i></a></li>
+            <li class="hidden-md hidden-lg"><a data-toggle="tab" href="#coorporativo"><i class="fas fa-city"></i></a></li>
+            <li class="hidden-md hidden-lg"><a data-toggle="tab" href="#ambiental"><i class="fas fa-tree"></i></a></li>
+            <li class="hidden-md hidden-lg"><a data-toggle="tab" href="#agricola"><i class="fas fa-leaf"></i></a></li>
+            <li class="hidden-md hidden-lg"><a data-toggle="tab" href="#pragas"><i class="fas fa-bug"></i></a></li>
           </ul>
         
           <div class="tab-content solucoes">
-            <br/><br/>
+            <div class="hidden-xs hidden-sm col-xs-12" style="height:30px;"></div>
             <div id="residencial" class="tab-pane fade in active">
+              <div class="col-xs-12 hidden-md hidden-lg text-center"><h3>Residencial</h3></div>
               <div class="col-md-6 col-lg-6">
-                  <div class="col-md-6 col-lg-7">
+                  <div class="col-xs-6 col-md-6 col-lg-7">
                     <h4>Neutralizador de odores</h4>
                     <ul>
                       <li><i class="fas fa-home"></i> Home</li>
@@ -205,17 +224,13 @@
                       <li><i class="fas fa-car"></i> Car</li>
                     </ul>
                   </div>
-                  <div class="col-md-6 col-lg-5">
+                  <div class="col-xs-6 col-lg-5">
                     <h4>Limpeza</h4>
                     <ul>
                       <li><i class="fas fa-water"></i> Multi Uso</li>
                     </ul>
                   </div>
-                  <div class="row"></div>
-                  <br/><br/><br/>
-                  <div class="col-xs-12">
-                    <a href="residencial.html" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
-                  </div>
+                  <div class="hidden-xs hidden-sm col-xs-12" style="height:30px;"></div>
                 </div>
                 <div class="col-md-5 col-lg-6">
                   <div id="residencial_carousel" class="carousel slide" data-ride="carousel">
@@ -234,9 +249,16 @@
                       </div>
                     </div>
                   </div>
-              </div>
+                  <div class="hidden-md hidden-lg col-xs-12" style="height:30px;"></div>
+                </div>
+                    <div class="col-xs-12">
+                        <div class="col-xs-12">
+                            <a href="residencial.html" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
+                            </div>
+                    </div>
             </div>
             <div id="coorporativo" class="tab-pane fade">
+              <div class="col-xs-12 hidden-md hidden-lg text-center"><h3>Coorporativo</h3></div>
               <div class="col-md-8">
                   <div class="col-md-6 col-lg-5">
                     <h4>Neutralizador de odores</h4>
@@ -246,12 +268,14 @@
                       <li><i class="fas fa-car"></i> Car</li>
                     </ul>
                   </div>
+                  <div class="hidden-md hidden-lg col-xs-12" style="height:12px;"></div>
                   <div class="col-md-6 col-lg-4">
                     <h4>Limpeza</h4>
                     <ul>
                       <li><i class="fas fa-water"></i> Multi Uso</li>
                     </ul>
                   </div>
+                  <div class="hidden-md hidden-lg col-xs-12" style="height:12px;"></div>
                   <div class="col-md-6 col-lg-3">
                     <h4>BioRemediação</h4>
                     <ul>
@@ -259,19 +283,16 @@
                       <li><i class="fas fa-water"></i> EcoRem</li>
                     </ul>
                   </div>
-                  <div class="row"></div>
-                  <br/><br/><br/>
-                  <div class="col-xs-12">
-                    <a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
-                  </div>
+                  <div class="col-xs-12" style="height:15px;"></div>
+                    <div class="col-xs-12">
+                      <a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-media">
-                      <img src="img/services/service-2.jpg" alt=" ">
-                    </div>
                 </div>
             </div>
             <div id="ambiental" class="tab-pane fade">
+                <div class="col-xs-12 hidden-md hidden-lg text-center"><h3>Ambiental</h3></div>
                 <div class="col-md-8">
                     <div class="col-md-6 col-lg-3">
                       <h4>BioRemediação</h4>
@@ -280,19 +301,19 @@
                         <li><i class="fas fa-water"></i> EcoRem</li>
                       </ul>
                     </div>
-                    <div class="row"></div>
-                    <br/><br/><br/>
+                    <div class="col-xs-12" style="height:15px;"></div>
                     <div class="col-xs-12">
                       <a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                      <div class="service-media">
-                        <img src="img/services/service-3.jpg" alt=" ">
-                      </div>
+                  <div class="col-md-4 hidden-xs hidden-sm">
+                    <div class="service-media">
+                      <img src="img/services/service-3.jpg" alt=" ">
+                    </div>
                   </div>
               </div>
               <div id="agricola" class="tab-pane fade">
+                  <div class="col-xs-12 hidden-md hidden-lg text-center"><h3>Agrícola</h3></div>
                   <div class="col-md-8">
                       <div class="col-md-6 col-lg-5">
                         <h4>Controle de Pragas</h4>
@@ -300,19 +321,19 @@
                           <li><i class="fas fa-bug"></i> Moscas de estábulo</li>
                         </ul>
                       </div>
-                      <div class="row"></div>
-                      <br/><br/><br/>
+                      <div class="col-xs-12" style="height:15px;"></div>
                       <div class="col-xs-12">
                         <a href="#about" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
                       </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 hidden-xs hidden-sm">
                         <div class="service-media">
                           <img src="img/services/service-4.jpg" alt=" ">
                         </div>
                     </div>
                 </div>
                 <div id="pragas" class="tab-pane fade">
+                    <div class="col-xs-12 hidden-md hidden-lg text-center"><h3>Serviços de controle de pragas e desinfecção</h3></div>
                     <div class="col-md-8">
                         <div class="col-md-6 col-lg-4">
                           <h4>Controle de pragas urbanas</h4>
@@ -323,18 +344,18 @@
                             <li>Pássaros</li>
                           </ul>
                         </div>
+                        <div class="hidden-md hidden-lg col-xs-12" style="height:12px;"></div>
                         <div class="col-md-6 col-lg-6">
                           <h4>Limpeza e desinfeção de reservatórios de água potável</h4>
-                          <br/>
+                          <div class="hidden-md hidden-lg col-xs-12" style="height:12px;"></div>
                           <h4>Desinfecção de Ambientes</h4>
                         </div>
-                        <div class="row"></div>
-                        <br/><br/><br/>
+                        <div class="col-xs-12" style="height:15px;"></div>
                         <div class="col-xs-12">
                           <a href="http://www.combate.com.br/" target="_blank" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
                         </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 hidden-xs hidden-sm">
                           <div class="service-media">
                             <img src="img/services/service-5.jpg" alt=" ">
                           </div>
