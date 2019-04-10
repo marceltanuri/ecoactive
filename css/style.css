@@ -608,10 +608,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   }
 
 .logo{
-	float:left;
+	margin-top: -20px;
 }
 .logo img{
-	height: 60px;
+	height: 80px;
   }
   .logo-text{
 	float:right; margin-top: -5px; margin-left: 5px;

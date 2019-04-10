@@ -46,11 +46,9 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a style="margin-bottom: 8px; line-height:0" class="navbar-brand page-scroll" href="#page-top">
-          
             <div class="logo">
               <img src="img/logo_top.jpg"/>
             </div>
-          
       </a>
       <!-- <div class="phone"><span>Entre em contato</span>+55 11 4461-0636</div> -->
     </div>
@@ -178,7 +176,7 @@
         <br/><br/>
         <div class="col-xs-12 text-center">
             <div class="col-xs-12 col-sm-12 col-md-3">
-              <a href="http://ecoactive.com.br/ecoactive.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-child"></i> Residencial</a>              
+              <a href="ecoactive/index.html" class="btn btn-custom btn-lg page-scroll"><i class="fas fa-child"></i> Residencial</a>              
             </div>
             <div class="col-xs-12 hidden-md hidden-lg" style="height:25px;"></div>
             <div class="col-xs-12 col-sm-12 col-md-3">
@@ -314,7 +312,7 @@
                 <div class="hidden-md hidden-lg col-xs-12" style="height:30px;"></div>
                     <div class="col-xs-12">
                         <div class="col-xs-12">
-                            <a href="http://ecoactive.com.br/ecoactive.html" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
+                            <a href="ecoactive/index.html" class="btn btn-custom btn-lg page-scroll">Saiba mais</a>
                             </div>
                     </div>
             </div>
@@ -501,23 +499,23 @@
           <h2>Fale conosco</h2>
           <p>Preencha o formulário abaixo para nos enviar um email e entraremos em contato.</p>
         </div>
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form method="POST" action="https://formspree.io/marcel.tanuri@gmail.com">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Nome" required="required">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Nome" required="required">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="required">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
           </div>
           <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensagem" required></textarea>
+            <textarea name="message" id="message" name="message" class="form-control" rows="4" placeholder="Mensagem" required></textarea>
             <p class="help-block text-danger"></p>
           </div>
           <div id="success"></div>
