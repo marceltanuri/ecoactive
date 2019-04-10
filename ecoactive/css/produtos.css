@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+#meio{ background:url(../images/produtos_img.png) no-repeat 55px 5px}
+
+h2{margin-bottom:0}
+#tit_home{ background: url(../images/produtos_tit-home.gif) no-repeat}
+#tit_pet{ background:url(../images/produtos_tit-pet.gif) no-repeat}
+#tit_car{ background:url(../images/produtos_tit-car.gif) no-repeat}
+#tit_conc{ background:url(../images/produtos_tit-conc.gif) no-repeat}

@@ -183,11 +183,23 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro2{
-	background: url(../img/house1.jpg) center center no-repeat;
+	background: url(../img/banner2.jpg) center center no-repeat;
+	margin-top: 0px;
+	cursor: pointer;
+	background-color: #003486;
 }
 
-.intro1{
-	background: url(../img/lab7.jpg) center center no-repeat;
+.intro2mb{
+	background: url(../img/banner2_mobile.jpg) center center no-repeat;
+	margin-top: 0px;
+	cursor: pointer;
+	background-color: #003486;
+	margin-top: 150px;
+}
+
+.intro3{
+	background: url(../img/banner3.jpg) center center no-repeat;
+	cursor: pointer;
 }
 
 .intro {
@@ -201,9 +213,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 
-
-
-
 .intro .overlay {
 	background: rgba(1, 12, 69, 0.9);
 }
@@ -212,8 +221,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: white;
 	font-size: 62px;
 	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 10px;
+	margin-top: -30px;
+	margin-bottom: 0px;
 	text-shadow: 0px 2px 60px rgba(0, 0, 0, 0.3)}
 .intro p {
 	color: #fff;

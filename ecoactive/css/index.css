@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{background:#fbf5ec none}
+#meio{
+	width:1208px;
+	height:150px;
+	background: url(../images/home_img2.jpg) no-repeat;
+	padding:428px 0 0 0;
+	margin:auto}
+	
+	#meio div h3{color:#0071a4; font-size:11px}
+	#meio div p{ margin-bottom:5px}
+	
+	#meio div a{font-size:9px; font-weight:bold;
+	color:#b6af9e}
+
+
+#meio #coluna01{
+	width:300px;
+	height:120px;
+	float:left;
+	margin:0 45px 0 260px}
+	
+	#meio #coluna02{
+	width:230px;
+	height:120px;
+	float:left;
+	margin:0 45px 0 0}
+	
+	#meio #coluna03{
+	width:190px;
+	height:120px;
+	float:left;
+	margin:0 45px 0 0}
