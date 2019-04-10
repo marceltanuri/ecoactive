@@ -44,7 +44,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a style="margin-bottom: 8px; line-height:0" class="navbar-brand page-scroll" href="#page-top">
-          <div class="logo">
+          <div class="logo" onclick="window.location='index.html'">
             <img src="img/logo_top.jpg"/>
           </div>
     </a>
@@ -84,14 +84,105 @@
     </div>
     <div class="hidden-md hidden-lg col-xs-12" style="height:30px;"></div>
     <ul class="nav nav-tabs service_opt">
-        <li class="active"><a data-toggle="tab" href="#home"><i class="fas fa-home"></i><span class="hidden-xs hidden-sm">&nbsp;Home</span></a></li>
+        <li class="active"><a data-toggle="tab" href="#surface"><i class="fas fa-atom"></i><span class="hidden-xs hidden-sm">&nbsp;Surface Cleaner</span></a></li>  
+      <li class=""><a data-toggle="tab" href="#home"><i class="fas fa-home"></i><span class="hidden-xs hidden-sm">&nbsp;Home</span></a></li>
         <li><a data-toggle="tab" href="#pet"><i class="fas fa-paw"></i><span class="hidden-xs hidden-sm">&nbsp;Pet</span></a></li>
         <li><a data-toggle="tab" href="#car"><i class="fas fa-car"></i><span class="hidden-xs hidden-sm">&nbsp;Car</span></a></li>
-        <li><a data-toggle="tab" href="#multiuso"><i class="fas fa-water"></i><span class="hidden-xs hidden-sm">&nbsp;Multi Uso</span></a></li>
       </ul>
       <br/>
       <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
+          <div id="surface" class="tab-pane fade in active">
+              <div class="col-xs-12 hidden-md hidden-lg">  
+                <h3 class="service_title">
+                  Digestor de Hidrocarbonetos
+                </h3>
+              </div>
+            <!-- <div class="col-md-5">
+                <img class="product-img" style="margin-top:20px;" src="img/services/products/home_res.jpg" height="455px;" alt="Neutralizador de Odores Casa">
+            </div> -->
+            <div  class="col-xs-12">
+              <h3 class="service_title hidden-xs hidden-sm">
+                  Digestor de Hidrocarbonetos
+              </h3>
+              <div class="product-desc">Indicado, testado e aprovado na limpeza de Petróleo, Gasolina, Diesel, Óleo de Freio, Graxas/Alcatrão, Querosene, BTEX, Combust. Aviação, Nafta, Óleos Vegetais, Metanol, Etanol, Óleo Motor, Anticongelante, Fluídos Skydrol, Fluido Térmico, Óleos Sintéticos, Óleos Lubrificantes, Fluídos Hidráulicos, Fluídos de Corte, Solventes, etc.</div>
+              </br><br/>
+              <div class="row">
+                  <ul class="nav nav-tabs solucoes-menu">
+                      <li class="active"><a data-toggle="tab" href="#piso"><i class="fas fa-broom"></i><span class="hidden-xs hidden-sm">&nbsp;Limpeza de piso</span></a></li>
+                      <li><a data-toggle="tab" href="#altap"><i class="fas fa-spray-can"></i><span class="hidden-xs hidden-sm">&nbsp;Limpeza Alta Pressão</span></a></li>
+                      <li><a data-toggle="tab" href="#derrame"><i class="fas fa-fill-drip"></i><span class="hidden-xs hidden-sm">&nbsp;Derrames</span></a></li>
+                      <li><a data-toggle="tab" href="#descarte"><i class="fas fa-recycle"></i><span class="hidden-xs hidden-sm">&nbsp;Descarte</span></a></li>
+                    </ul>
+
+                  <div class="tab-content">
+                    <div id="piso" class="tab-pane fade in active">
+                      <br/><br/>
+                              <ul style="margin-left:35px; font-size: 16px;">
+                                  <li style="list-style:disc">Dissolve óleo embebido, graxas e sujidades das superfícies</li>
+                                  <li style="list-style:disc">Recupera superfícies com uma limpeza profunda, acabando com as quedas causados por piso escorregadio, aumentando a tração, inclusive em pisos úmidos</li>
+                                  <li style="list-style:disc">Nas aplicações com Mop, a solução dura mais e se mantém ativa, mesmo horas após os desengraxantes convencionais estarem exauridos</li>
+                                  <li style="list-style:disc">Mantém os Mops, baldes e escovas limpos</li>
+                                  <li style="list-style:disc">Não ataca superfícies de concreto, epóxi, azulejos, pinturas de piso ou pisos encerados</li>
+                              </ul>
+                      </div>
+                      <div id="altap" class="tab-pane fade in">
+                          <br/><br/>
+                                  <ul style="margin-left:35px; font-size: 16px;">
+                                      <li style="list-style:disc">Penetra rapidamente eliminando óleos, graxas e sujidades</li>
+                                      <li style="list-style:disc">Produz uma espuma super aderente e que limpa profundamente</li>
+                                      <li style="list-style:disc">Pode ser usado com máquinas tipo Wap, escovas, sprays ou panos</li>
+                                      <li style="list-style:disc">Formulação não corrosiva que não agride superfícies plásticas, borrachas, metal, acrílico e pinturas</li>
+                                  </ul>
+                          </div>
+                          <div id="derrame" class="tab-pane fade in">
+                              <br/><br/>
+                                      <ul style="margin-left:35px; font-size: 16px;">
+                                          <li style="list-style:disc">Controla os vapores, reduz VOC&#39;s e reduz rápida e
+                                              drasticamente o nível de explosividade de gasolina, diesel,
+                                              querosene de aviação e outros</li>
+                                          <li style="list-style:disc">Reduz o tempo de limpeza de derrames e custos de descarte,
+                                              Liberando a área afetada em pouco tempo.</li>
+                                          <li style="list-style:disc">Seca rapidamente deixando as superfícies não escorregadias
+                                              durante e após a aplicação</li>
+                                          <li style="list-style:disc">Pode ser aplicado em superfícies molhadas ou com vento</li>
+                                      </ul>
+                              </div>
+                              <div id="descarte" class="tab-pane fade in">
+                                  <br/><br/>
+                                          <ul style="margin-left:35px; font-size: 16px;">
+                                              <li style="list-style:disc">O método preferido de descarte é num separador óleo/água, numa unidade de pré-tratamento ou numa ETA</li>
+                                              <li style="list-style:disc">Reduz a frequência de esgotamento do separador óleo/água por dissolver a borra e por eliminar óleos emulsionados</li>
+                                              <li style="list-style:disc">Compatível com Skimmers, evaporadores, e
+                                                  sistemas de tratamento biológico ou por
+                                                  polímeros</li>
+                                              <li style="list-style:disc">Elimina o uso de material para absorção e
+                                                  posterior descarte</li>
+                                          </ul>
+                                  </div>
+                  </div>
+              </div>
+              <br/><br/>
+              <h4><i class="fas fa-flask"></i> Tecnologia</h4>
+              <p>Foi desenvolvido com tecnologia de ponta que degrada as moléculas dos derivados de petróleo e os transformam em H2O e CO2.</p>
+              <br/>
+              <img src="img/services/products/surfc2.png" width="420px;"/>
+              <br/><br/>
+              <h4><i class="fas fa-question"></i> Modo de usar</h4>
+              <img src="img/services/products/surfc3.png" width="900px;"/>
+              <br/><br/>
+                <h4><i class="fas fa-check"></i> Qualidade EcoActive</h4>
+                <ul>
+                    <li>Promove a Bioremediação dos hidrocarbonetos convertendo-os em água e CO2</li>
+                    <li>Reduz os gastos de descarte e não gera passivo ambiental</li>
+                    <li>erformance superior às almofadas e absorventes granulados</li>
+                    <li>Substitui os desengraxantes convencionais</li>
+                    <li>Compatível com a maioria das superfícies a serem tratadas</li>
+                    <li>Produto listado e aprovado nos USA pela EPA </li>
+                    <li>Reconhecido no Safer Choice Program da EPA</li>
+                </ul>
+            </div>
+          </div>
+        <div id="home" class="tab-pane fade in">
             <div class="col-xs-12 hidden-md hidden-lg">  
               <h3 class="service_title">
                 Neutralizador de Odores para sua Casa
