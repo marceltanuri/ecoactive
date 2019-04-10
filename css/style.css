@@ -197,6 +197,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 150px;
 }
 
+.intro3mb{
+	background: url(../img/banner3_mobile.jpg) center center no-repeat;
+	margin-top: 0px;
+	cursor: pointer;
+	background-color: #003486;
+	margin-top: 150px;
+}
+
 .intro3{
 	background: url(../img/banner3.jpg) center center no-repeat;
 	cursor: pointer;
